@@ -15,6 +15,3 @@ wsgi_app = app.wsgi_app
 def hello():
     return "Hello"
 
-@app.route('/', methods=['POST'])
-def decoding():
-    return jsonify({'Result':'success'})
